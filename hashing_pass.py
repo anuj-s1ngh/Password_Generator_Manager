@@ -3,6 +3,7 @@ import hashlib
 
 
 def hash_password(password):
+    # this fuction is taken from https://www.pythoncentral.io/hashing-strings-with-python/.
     # uuid is used to generate a random number
     salt = uuid.uuid4().hex
     print(salt)
@@ -12,6 +13,7 @@ def hash_password(password):
 
 
 def check_password(hashed_password, user_password):
+    # this fuction is taken from https://www.pythoncentral.io/hashing-strings-with-python/.
     password, salt = hashed_password.split(':')
     return password == hashlib.sha256(salt.encode() + user_password.encode()).hexdigest()
 
