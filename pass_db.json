@@ -3,9 +3,15 @@
   "password_list": [
     {
       "id": 1,
-      "service_name": "fb",
-      "username": "asd",
+      "service_name": "FB",
+      "username": "fb_user",
       "password": ".Ga6[o_\\?`D3o(Mk6/l#=Wr2e0<maxN2"
+    },
+    {
+      "id": 2,
+      "service_name": "Google",
+      "username": "google_user",
+      "password": "PmD9axN26o3oMk6laWr2e0"
     }
   ]
 }
